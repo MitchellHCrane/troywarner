@@ -1,0 +1,21 @@
+.profile-div {
+    background-color: #fff;
+    display: block;
+    margin: 0 8%;
+    height: calc(100vh - 90px);
+}
+
+.profileName, .NMLS {
+    color: #004E82;
+}
+
+.troyProfilePic {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 75%;
+    height: auto;
+    border-radius: 8px;
+    padding-top: 32px;
+}
+

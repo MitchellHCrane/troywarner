@@ -1,0 +1,80 @@
+/* Global Styles */
+
+html {
+  scroll-behavior: smooth;
+}
+
+h1 {
+  font-family: "Bitter-Italic", Times, serif;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: normal;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  color: #cf1332;
+}
+
+h2 {
+  font-family: 'SourceSansPro-Black', Helvetica, Arial;
+  font-size: 24px;
+  font-weight: black;
+  letter-spacing: 2px;
+  color: #1C2331;
+}
+
+h3 {
+  font-family: 'SourceSansPro-Black', Helvetica, Arial;
+  font-size: 24px;
+  font-weight: black;
+  letter-spacing: 2px;
+  color: #004E82;
+}
+
+p {
+  font-family: 'OpenSans', Helvetica, Arial;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: normal;
+  letter-spacing: 1px;
+  text-transform: none;
+  color: #91959D;
+}
+
+a {
+  text-decoration: none;
+}
+
+
+.buttonBlue {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #2CA4F2;
+  border: 1px solid #2CA4F2;
+  border-radius: 8px;
+  box-shadow: rgba(0, 0, 0, .1) 0 2px 4px 0;
+  box-sizing: border-box;
+  color: #fff;
+  cursor: pointer;
+  font-family: 'SourceSansPro-Black', Helvetica, Arial;
+  font-size: 24px;
+  font-weight: 900;
+  outline: none;
+  outline: 0;
+  padding: 16px 80px;
+  text-align: center;
+  transform: translateY(0);
+  user-select: none;
+  -webkit-user-select: none;
+}
+
+.buttonBlue:hover {
+  box-shadow: rgba(0, 0, 0, .15) 0 3px 9px 0;
+  transform: translateY(-2px);
+}
+
+@media (min-width: 768px) {
+  .buttonBlue {
+    padding: 10px 30px;
+  }
+}
