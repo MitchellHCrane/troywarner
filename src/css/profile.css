@@ -7,13 +7,24 @@
 
 .profileName, .NMLS {
     color: #004E82;
+    margin: 0;
+}
+
+.profileName {
+    margin-top: 16px;
+}
+
+.NMLS {
+    padding-top: 6px;
+    font-size: 16px;
+    font-weight: 400;
 }
 
 .troyProfilePic {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 85%;
+    width: 100%;
     height: auto;
     border-radius: 8px;
     padding-top: 32px;

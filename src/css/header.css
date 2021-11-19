@@ -2,13 +2,12 @@
 
 .App-header {
   background-color: #004e82;
-  height: 50px;
+  height: 80px;
   display: flex;
   justify-content: center;
-  padding: 20px 0px;
+  margin: 0px auto;
 }
 
 .fcLogo {
-  background-image: url(../fcLogo.png);
-  width: 200px;
+  background-image: url(../images/fcLogo.png);
 }

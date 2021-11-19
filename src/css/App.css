@@ -5,29 +5,28 @@ html {
 }
 
 h1 {
-  font-family: "Bitter-Italic", Times, serif;
-  font-size: 14px;
-  font-style: normal;
-  font-weight: normal;
-  letter-spacing: 1px;
-  text-transform: uppercase;
-  color: #cf1332;
+  font-family: 'SourceSansPro-Black', Helvetica, Arial;
+  font-size: 24px;
+  font-weight: 900;
+  color: #004E82;
+  letter-spacing: .25px;
 }
 
 h2 {
   font-family: 'SourceSansPro-Black', Helvetica, Arial;
   font-size: 24px;
-  font-weight: black;
-  letter-spacing: 2px;
-  color: #1C2331;
+  font-weight: 900;
+  color: #004E82;
+  letter-spacing: 1px;
 }
 
 h3 {
   font-family: 'SourceSansPro-Black', Helvetica, Arial;
   font-size: 24px;
-  font-weight: black;
-  letter-spacing: 2px;
+  font-weight: 900;
   color: #004E82;
+  letter-spacing: 1px;
+
 }
 
 p {
@@ -35,13 +34,16 @@ p {
   font-size: 18px;
   font-style: normal;
   font-weight: normal;
-  letter-spacing: 1px;
   text-transform: none;
   color: #91959D;
+  line-height: 24px;
+  letter-spacing: .75px;
+
 }
 
 a {
   text-decoration: none;
+  color: #2CA4F2;
 }
 
 
@@ -71,6 +73,10 @@ a {
 .buttonBlue:hover {
   box-shadow: rgba(0, 0, 0, .15) 0 3px 9px 0;
   transform: translateY(-2px);
+}
+
+#getStarted {
+  margin-top: 48px;
 }
 
 @media (min-width: 768px) {

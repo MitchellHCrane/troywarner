@@ -21,6 +21,8 @@ function GetStarted() {
           </p>
           <a
             href="https://www.blink.mortgage/app/signup/p/firstclasshomemortgagellc/troywarner"
+            target="_blank"
+            rel="noreferrer"
             className="cardLink"
           >
             Start Application
@@ -34,7 +36,9 @@ function GetStarted() {
             fames.
           </p>
           <a
-            href="https://documentguardian.com/filedrop/loans@troywarner.com"
+            href="https://uwm.frameworkhomeownership.org/"
+            target="_blank"
+            rel="noreferrer"
             className="cardLink"
           >
             Start Learning
@@ -48,7 +52,9 @@ function GetStarted() {
             fames.
           </p>
           <a
-            href="https://uwm.frameworkhomeownership.org/"
+            href="https://documentguardian.com/filedrop/loans@troywarner.com"
+            target="_blank"
+            rel="noreferrer"
             className="cardLink"
           >
             Upload Documents
