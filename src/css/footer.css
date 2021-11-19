@@ -1,33 +1,35 @@
 /* Footer Styles */
 footer {
-    padding-bottom: 36px;
-    background: #004E82;
-    /* padding: 32px 8px; */
-    width: 100%;
+  padding-bottom: 36px;
+  background: #004e82;
+  /* padding: 32px 8px; */
+  width: 100%;
 }
 
 .footer-div {
-    display: grid;
+  display: grid;
 }
 
 .footerGridItem {
-    margin-top: 32px;
-    margin-left: 32px;
-    margin-right: 32px;
+  margin-top: 32px;
+  margin-left: 32px;
+  margin-right: 32px;
 }
 
-.footerH3, .footerP {
-    color: #FFF;
-    margin: 0;
+.footerH3,
+.footerP {
+  color: #fff;
+  margin: 0;
 }
 
 .footerH3 {
-    font-size: 18px;
-    margin-bottom: 8px;
+  font-size: 18px;
+  margin-bottom: 8px;
 }
 
-.footerP {
-    font-size: 14px;
-    line-height: 16px;
-    letter-spacing: 0px;
+.footerP,
+.footerP a {
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0px;
 }

@@ -1,5 +1,5 @@
 import "../css/getStarted.css";
-import "../css/App.css";
+import GetStartedItem from "../Components/GetStartedItem";
 
 function GetStarted() {
   return (
@@ -12,54 +12,35 @@ function GetStarted() {
         </p>
       </div>
       <div className="grid-container">
-        <div className="grid-item">
-          <h3 className="getStartedCard">Loan Application</h3>
-          <p className="getStartedCardP">
-            Varius facilisi mauris sed sit. Non sed et duis dui leo, vulputate
-            id malesuada non. Cras aliquet purus dui laoreet diam sed lacus,
-            fames.
-          </p>
-          <a
-            href="https://www.blink.mortgage/app/signup/p/firstclasshomemortgagellc/troywarner"
-            target="_blank"
-            rel="noreferrer"
-            className="cardLink"
-          >
-            Start Application
-          </a>
-        </div>
-        <div className="grid-item">
-          <h3 className="getStartedCard">Loan Education</h3>
-          <p className="getStartedCardP">
-            Varius facilisi mauris sed sit. Non sed et duis dui leo, vulputate
-            id malesuada non. Cras aliquet purus dui laoreet diam sed lacus,
-            fames.
-          </p>
-          <a
-            href="https://uwm.frameworkhomeownership.org/"
-            target="_blank"
-            rel="noreferrer"
-            className="cardLink"
-          >
-            Start Learning
-          </a>
-        </div>
-        <div className="grid-item">
-          <h3 className="getStartedCard">Upload Documents</h3>
-          <p className="getStartedCardP">
-            Varius facilisi mauris sed sit. Non sed et duis dui leo, vulputate
-            id malesuada non. Cras aliquet purus dui laoreet diam sed lacus,
-            fames.
-          </p>
-          <a
-            href="https://documentguardian.com/filedrop/loans@troywarner.com"
-            target="_blank"
-            rel="noreferrer"
-            className="cardLink"
-          >
-            Upload Documents
-          </a>
-        </div>
+        <GetStartedItem
+          title="Loan Application"
+          description=" Varius facilisi mauris sed sit. Non sed et duis dui leo, vulputate
+              id malesuada non. Cras aliquet purus dui laoreet diam sed lacus,
+              fames."
+          url="https://www.blink.mortgage/app/signup/p/firstclasshomemortgagellc/troywarner"
+          iconName="applicationIcon"
+          btnText="Start Application"
+        />
+
+        <GetStartedItem
+          title="Loan Education"
+          description=" Varius facilisi mauris sed sit. Non sed et duis dui leo, vulputate
+              id malesuada non. Cras aliquet purus dui laoreet diam sed lacus,
+              fames."
+          url="https://uwm.frameworkhomeownership.org/"
+          iconName="loanEducationIcon"
+          btnText="Start Learning"
+        />
+
+        <GetStartedItem
+          title="Upload Documents"
+          description=" Varius facilisi mauris sed sit. Non sed et duis dui leo, vulputate
+              id malesuada non. Cras aliquet purus dui laoreet diam sed lacus,
+              fames."
+          url="https://documentguardian.com/filedrop/loans@troywarner.com"
+          iconName="uploadDocumentIcon"
+          btnText="Upload Documents"
+        />
       </div>
     </div>
   );

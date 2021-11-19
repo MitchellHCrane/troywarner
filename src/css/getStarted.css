@@ -1,5 +1,6 @@
 .getStarted-div {
   background-color: #fff;
+  margin: 64px 0;
 }
 
 .getStartedBackground {
@@ -8,46 +9,15 @@
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  width: 100vw;
-  height: 35vh;
-}
-
-.getStartedH2,
-.getStartedP {
-  color: #fff;
-  text-align: center;
+  padding: 64px 8% 160px;
 }
 
 .getStartedH2 {
-  padding-top: 32px;
   font-size: 36px;
 }
 
-.getStartedP {
-  font-size: 18px;
-}
-
 .grid-container {
+  margin-top: -96px;
   display: grid;
-  grid-template-columns: 1;
-}
-
-.grid-item {
-  padding: 24px;
-  font-size: 24px;
-  text-align: center;
-  border-radius: 8px;
-  background-color: #fff;
-  margin: 16px 24px;
-  box-shadow: 1px 2px 8px #91959d;
-}
-
-.getStartedCard,
-.getStartedCardP {
-  text-align: left;
-}
-
-.cardLink {
-  text-decoration: none;
-  color: #2ca4f2;
+  grid-template-columns: 1fr;
 }

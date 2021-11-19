@@ -5,60 +5,62 @@ html {
 }
 
 h1 {
-  font-family: 'SourceSansPro-Black', Helvetica, Arial;
+  font-family: "SourceSansPro-Black", Helvetica, Arial;
   font-size: 24px;
   font-weight: 900;
-  color: #004E82;
-  letter-spacing: .25px;
+  color: #004e82;
+  letter-spacing: 0.25px;
 }
 
 h2 {
-  font-family: 'SourceSansPro-Black', Helvetica, Arial;
+  font-family: "SourceSansPro-Black", Helvetica, Arial;
   font-size: 24px;
   font-weight: 900;
-  color: #004E82;
+  color: #004e82;
   letter-spacing: 1px;
 }
 
 h3 {
-  font-family: 'SourceSansPro-Black', Helvetica, Arial;
+  font-family: "SourceSansPro-Black", Helvetica, Arial;
   font-size: 24px;
   font-weight: 900;
-  color: #004E82;
+  color: #004e82;
   letter-spacing: 1px;
-
 }
 
-p {
-  font-family: 'OpenSans', Helvetica, Arial;
+p,
+a,
+li {
+  font-family: "OpenSans", Helvetica, Arial;
   font-size: 18px;
   font-style: normal;
   font-weight: normal;
   text-transform: none;
-  color: #91959D;
+  color: #91959d;
   line-height: 24px;
-  letter-spacing: .75px;
-
+  letter-spacing: 0.75px;
+  margin-top: 16px;
 }
 
 a {
   text-decoration: none;
-  color: #2CA4F2;
+  color: #2ca4f2;
 }
 
-
 .buttonBlue {
+  width: 100%;
+  margin-top: 32px;
   display: block;
   margin-left: auto;
   margin-right: auto;
-  background-color: #2CA4F2;
-  border: 1px solid #2CA4F2;
+  background-color: #2ca4f2;
+  border: 1px solid #2ca4f2;
   border-radius: 8px;
-  box-shadow: rgba(0, 0, 0, .1) 0 2px 4px 0;
+  box-shadow: rgba(0, 0, 0, 0.1) 0 2px 4px 0;
   box-sizing: border-box;
   color: #fff;
   cursor: pointer;
-  font-family: 'SourceSansPro-Black', Helvetica, Arial;
+  font-family: "SourceSansPro-Black", Helvetica, Arial;
   font-size: 24px;
   font-weight: 900;
   outline: none;
@@ -68,15 +70,13 @@ a {
   transform: translateY(0);
   user-select: none;
   -webkit-user-select: none;
+  transition: 0.3s;
 }
 
 .buttonBlue:hover {
-  box-shadow: rgba(0, 0, 0, .15) 0 3px 9px 0;
+  box-shadow: 0px 8px 16px rgba(145, 149, 157, 0.3);
   transform: translateY(-2px);
-}
-
-#getStarted {
-  margin-top: 48px;
+  /* transition: all 3s ease-in-out; */
 }
 
 @media (min-width: 768px) {

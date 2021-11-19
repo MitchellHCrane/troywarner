@@ -1,32 +1,32 @@
 .profile-div {
-    background-color: #fff;
-    display: block;
-    margin: 0 8%;
-    height: calc(100vh - 90px);
+  background-color: #fff;
+  display: block;
+  margin: 0 8%;
+  /* height: calc(100vh - 90px); */
 }
 
-.profileName, .NMLS {
-    color: #004E82;
-    margin: 0;
+.profileName,
+.NMLS {
+  color: #004e82;
+  margin: 0;
 }
 
 .profileName {
-    margin-top: 16px;
+  margin-top: 16px;
 }
 
 .NMLS {
-    padding-top: 6px;
-    font-size: 16px;
-    font-weight: 400;
+  padding-top: 6px;
+  font-size: 16px;
+  font-weight: 400;
 }
 
 .troyProfilePic {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 100%;
-    height: auto;
-    border-radius: 8px;
-    padding-top: 32px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+  padding-top: 32px;
 }
-
