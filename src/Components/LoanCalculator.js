@@ -4,9 +4,15 @@ import MortgageCalculator from "mortgage-calculator-react";
 function LoanCalculator() {
   return (
     <div className="loanCalculator-div">
-      <h2>Loan Calculator</h2>
-      <p>Let Us Help You Calculate Your Monthly Payments</p>
+      <div className="loanCalcText">
+        <h2>Loan Calculator</h2>
+        <p>Get an estimate of your monthly mortgage payments.</p>
 
+        <p>
+          For a more accurate estimate, get in touch with me and I will help you
+          find the best solution for your needs.
+        </p>
+      </div>
       <div className="mortgageCalculator">
         <MortgageCalculator
           price={500000}

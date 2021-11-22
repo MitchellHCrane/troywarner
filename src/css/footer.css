@@ -4,6 +4,7 @@ footer {
   background: #004e82;
   /* padding: 32px 8px; */
   width: 100%;
+  margin-top: 200px;
 }
 
 .footer-div {
@@ -32,4 +33,20 @@ footer {
   font-size: 14px;
   line-height: 16px;
   letter-spacing: 0px;
+}
+
+
+@media (min-width: 1024px) {
+  .footer-div {
+    grid-template-columns: 296px 296px 296px;
+    justify-content: center;
+    text-align: center;
+    padding: 64px 0px;
+    grid-gap: 48px;
+  }
+  .footerGridItem {
+    margin-top: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+  }
 }

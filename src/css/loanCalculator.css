@@ -103,3 +103,13 @@
 .mortgageCalculator ._2QxqScDSDuK4P0ny7KZKNr {
   display: none;
 }
+
+@media (min-width: 1024px) {
+  .loanCalcText {
+    text-align: center;
+  }
+  .loanCalculator-div {
+    margin: 0 auto;
+    max-width: 800px;
+  }
+}

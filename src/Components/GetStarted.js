@@ -14,19 +14,16 @@ function GetStarted() {
       <div className="grid-container">
         <GetStartedItem
           title="Loan Application"
-          description=" Varius facilisi mauris sed sit. Non sed et duis dui leo, vulputate
-              id malesuada non. Cras aliquet purus dui laoreet diam sed lacus,
-              fames."
+          description="Create your account to apply with
+          First Class Home Mortgage."
           url="https://www.blink.mortgage/app/signup/p/firstclasshomemortgagellc/troywarner"
           iconName="applicationIcon"
           btnText="Start Application"
         />
 
         <GetStartedItem
-          title="Loan Education"
-          description=" Varius facilisi mauris sed sit. Non sed et duis dui leo, vulputate
-              id malesuada non. Cras aliquet purus dui laoreet diam sed lacus,
-              fames."
+          title="Framework Loan Education"
+          description="Educate yourself for smart homeownership with Framework, you’ll navigate every step of the process with confidence at no cost to you."
           url="https://uwm.frameworkhomeownership.org/"
           iconName="loanEducationIcon"
           btnText="Start Learning"
@@ -34,9 +31,7 @@ function GetStarted() {
 
         <GetStartedItem
           title="Upload Documents"
-          description=" Varius facilisi mauris sed sit. Non sed et duis dui leo, vulputate
-              id malesuada non. Cras aliquet purus dui laoreet diam sed lacus,
-              fames."
+          description="Safely and securely send documents through DocumentGuardian."
           url="https://documentguardian.com/filedrop/loans@troywarner.com"
           iconName="uploadDocumentIcon"
           btnText="Upload Documents"

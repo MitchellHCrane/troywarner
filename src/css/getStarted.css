@@ -19,5 +19,6 @@
 .grid-container {
   margin-top: -96px;
   display: grid;
-  grid-template-columns: 1fr;
+  /* grid-template-columns: 1fr; */
+  justify-content: center;
 }
