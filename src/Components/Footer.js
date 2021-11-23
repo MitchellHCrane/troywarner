@@ -17,7 +17,7 @@ function Footer() {
           </p>
         </div>
         <div className="footerGridItem">
-          <h3 className="footerH3">Realtor Info</h3>
+          <h3 className="footerH3">License Info</h3>
           <p className="footerP">Troy Warner (NMLS #102983)</p>
           <p className="footerP">
             Regulated by the Colorado Divison of Real Estate NMLS #1843
@@ -28,11 +28,11 @@ function Footer() {
           <p className="footerP">First Class Home Mortgage</p>
           <p className="footerP">
             <a
-              href="https://goo.gl/maps/mVxoCpkP4fWAdnFt8"
+              href="https://goo.gl/maps/o97dcDxGxFcAcRheA"
               target="_blank"
               rel="noreferrer"
             >
-              1206 S Jordan Pkwy Ste C, South Jordan, UT 84095
+              10808 River Fron Parkway, Suite #3035, South Jordan, UT 84095
             </a>
           </p>
         </div>
