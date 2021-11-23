@@ -17,7 +17,7 @@ function Footer() {
           </p>
         </div>
         <div className="footerGridItem">
-          <h3 className="footerH3">Realitor Info</h3>
+          <h3 className="footerH3">Realtor Info</h3>
           <p className="footerP">Troy Warner (NMLS #102983)</p>
           <p className="footerP">
             Regulated by the Colorado Divison of Real Estate NMLS #1843
