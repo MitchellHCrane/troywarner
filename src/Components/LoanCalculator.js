@@ -8,9 +8,9 @@ function LoanCalculator() {
         <h2>Loan Calculator</h2>
         <p>Get an estimate of your monthly mortgage payments.</p>
 
-        <p>
-          For a more accurate estimate, get in touch with me and I will help you
-          find the best solution for your needs.
+        <p className="small">
+          * For a more accurate estimate, get in touch with me and I will help
+          you find the best solution for your needs.
         </p>
       </div>
       <div className="mortgageCalculator">

@@ -5,7 +5,7 @@ function GetStarted() {
   return (
     <div className="getStarted-div" id="getStarted">
       <div className="getStartedBackground">
-        <h2 className="getStartedH2">Get Started</h2>
+        <h2 className="getStartedH2">Resources</h2>
         <p className="getStartedP">
           Here are some helpful links to get you started with the purchase of
           your next home.

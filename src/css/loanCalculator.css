@@ -2,6 +2,10 @@
   margin: 64px 8%;
 }
 
+.loanCalcText .small {
+  font-size: 14px;
+}
+
 .mortgageCalculator {
   margin-top: 32px;
 }
@@ -110,6 +114,6 @@
   }
   .loanCalculator-div {
     margin: 0 auto;
-    max-width: 800px;
+    max-width: 504px;
   }
 }

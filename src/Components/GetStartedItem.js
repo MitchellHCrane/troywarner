@@ -22,11 +22,13 @@ function GetStartedItem(props) {
 
   return (
     <div className="grid-item">
-      <div className="getStartedIcon">
-        <img src={iconName()} alt="get started item icon" />
+      <div>
+        <div className="getStartedIcon">
+          <img src={iconName()} alt="get started item icon" />
+        </div>
+        <h3 className="getStartedCard">{props.title}</h3>
+        <p className="getStartedCardP">{props.description}</p>
       </div>
-      <h3 className="getStartedCard">{props.title}</h3>
-      <p className="getStartedCardP">{props.description}</p>
       <a href={props.url} target="_blank" rel="noreferrer" className="cardLink">
         {props.btnText}
         <img src={ArrowRight} alt="Arrow right icon" />
