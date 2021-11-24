@@ -32,7 +32,7 @@ function Footer() {
               target="_blank"
               rel="noreferrer"
             >
-              10808 River Fron Parkway, Suite #3035, South Jordan, UT 84095
+              10808 River Front Parkway, Suite #3035, South Jordan, UT 84095
             </a>
           </p>
         </div>
