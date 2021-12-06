@@ -5,7 +5,8 @@ import ApplicationIcon from "../images/get-started-icons/application.svg";
 import LoanEducationIcon from "../images/get-started-icons/loan-education.svg";
 import UploadDocumentIcon from "../images/get-started-icons/upload-documents.svg";
 import ArrowRight from "../images/get-started-icons/arrow-right.svg";
-import PeaceHand from "../images/get-started-icons/peaceHand.svg"
+import PeaceHand from "../images/get-started-icons/peaceHand.svg";
+import reviewIcon from "../images/get-started-icons/review.svg";
 
 function GetStartedItem(props) {
   const iconName = () => {
@@ -18,6 +19,8 @@ function GetStartedItem(props) {
         return UploadDocumentIcon;
       case "peaceHand":
         return PeaceHand;
+      case "reviewIcon":
+        return reviewIcon;
       default:
         return ApplicationIcon;
     }

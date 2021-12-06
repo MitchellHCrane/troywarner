@@ -25,14 +25,14 @@ function Footer() {
         </div>
         <div className="footerGridItem">
           <h3 className="footerH3">Address</h3>
-          <p className="footerP">First Class Home Mortgage</p>
+          <p className="footerP">First Class Home Mortgage (NMLS#1843)</p>
           <p className="footerP">
             <a
               href="https://goo.gl/maps/o97dcDxGxFcAcRheA"
               target="_blank"
               rel="noreferrer"
             >
-              10808 River Front Parkway, Suite #3035, South Jordan, UT 84095
+              10808 River Front Parkway, Suite #3035,{<br />} South Jordan, UT 84095
             </a>
           </p>
         </div>
