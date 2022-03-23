@@ -31,7 +31,7 @@ function GetStarted() {
 
         <GetStartedItem
           title="HomeView Loan Education"
-          description="Free for first-time home buyers! Welcome to your go-to resource for every step of your homeownership journey. No matter you goals or background, we're here to help."
+          description="Free for first-time home buyers! Welcome to your go-to resource for every step of your homeownership journey. No matter your goals or background, we're here to help."
           url="https://www.fanniemae.com/education"
           iconName="loanEducationIcon"
           btnText="Start Learning"
