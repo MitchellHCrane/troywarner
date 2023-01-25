@@ -50,6 +50,13 @@ function GetStarted() {
           iconName="reviewIcon"
           btnText="Write Review"
         />
+        <GetStartedItem
+          title="Schedule Strategy Appointment"
+          description="Click to schedule a strategy appointment."
+          url="https://calendly.com/troywarnerloans"
+          iconName="strategyBoard"
+          btnText="Schedule"
+        />
       </div>
     </div>
   );
