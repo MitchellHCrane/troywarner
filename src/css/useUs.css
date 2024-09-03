@@ -1,0 +1,40 @@
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.useUsMain {
+    display: block;
+    justify-content: center;
+    padding: 2rem;
+    background-color: transparent;
+    gap: 1.5rem;
+}
+
+.useUsTextCont{
+    text-align: center;
+}
+.allVidCont {
+    /* display: flex; */
+    justify-content: center;
+}
+
+.useUsHeader {
+    font-size: 1.5rem;
+    font-weight: 600;
+    margin-bottom: 1rem;
+    color: #004e82;
+}
+
+@media (min-width: 768px) {
+    .useUsMain {
+        display: flex;
+        justify-content: center;
+        padding: 2rem;
+        background-color: transparent;
+        gap: 1.5rem;
+    }
+    .useUsTextCont{
+        text-align: left;
+    }
+}

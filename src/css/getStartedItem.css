@@ -1,3 +1,8 @@
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
 .getStartedH2,
 .getStartedP {
   color: #fff;

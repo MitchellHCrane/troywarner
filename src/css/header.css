@@ -1,5 +1,7 @@
 /* Header Styles */
-
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
 .App-header {
   background-color: #004e82;
   height: 80px;
