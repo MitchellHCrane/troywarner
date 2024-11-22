@@ -44,6 +44,13 @@ function GetStarted() {
           btnText="Get Swag"
         /> */}
         <GetStartedItem
+          title="Down Payment Assistance"
+          description="Learn about down payment assistance programs available to you."
+          url="https://dpa.1stclasshomemortgage.com/"
+          iconName="moneyIcon"
+          btnText="Learn More"
+        />
+        <GetStartedItem
           title="Leave a Review"
           description="Thank you for choosing First Class Home Mortgage. It’s our priority to continue providing quality service to our customers. Tell us about your experience."
           url="https://g.page/r/CStPPIWpW1rHEAg/review"

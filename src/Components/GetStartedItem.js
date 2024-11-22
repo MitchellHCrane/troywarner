@@ -8,6 +8,7 @@ import ArrowRight from "../images/get-started-icons/arrow-right.svg";
 import PeaceHand from "../images/get-started-icons/peaceHand.svg";
 import reviewIcon from "../images/get-started-icons/review.svg";
 import strategyBoard from "../images/get-started-icons/strategyBoard.svg";
+import moneyIcon from "../images/get-started-icons/money-icon.svg";
 
 function GetStartedItem(props) {
   const iconName = () => {
@@ -22,6 +23,8 @@ function GetStartedItem(props) {
         return PeaceHand;
       case "reviewIcon":
         return reviewIcon;
+      case "moneyIcon":
+        return moneyIcon;
       case "strategyBoard":
         return strategyBoard;
       default:
