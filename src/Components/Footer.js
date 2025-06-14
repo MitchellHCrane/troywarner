@@ -1,6 +1,6 @@
 import "../css/footer.css";
 import "../css/App.css";
-
+//test
 function Footer() {
   return (
     <footer>
